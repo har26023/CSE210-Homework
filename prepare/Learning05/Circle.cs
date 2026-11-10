@@ -7,7 +7,7 @@ class Circle : Shape
         _radius = radius;
     }
 
-    public double GetArea()
+    public override double GetArea()
     {
         return (_radius*_radius)*3.14;
     }

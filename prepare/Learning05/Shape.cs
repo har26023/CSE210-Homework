@@ -1,4 +1,4 @@
-class Shape
+public abstract class Shape
 {
     private string _color;
 
@@ -17,8 +17,5 @@ class Shape
         _color = color;
     }
 
-    public double GetArea()
-    {
-        return 0.00;
-    }
+    public abstract double GetArea();
 }
